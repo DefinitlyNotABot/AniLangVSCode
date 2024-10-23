@@ -1,0 +1,36 @@
+{
+	"scopeName": "source.animelang",
+	"patterns": [
+	  {
+		"name": "keyword.control.animelang",
+		"match": "\\b(for|while|if|else|wa|desu|oppai|pettanko|kyonyuu|chippai|bakunyuu|urusai|iie)\\b"
+	  },
+	  {
+		"name": "storage.type.animelang",
+		"match": "\\b(kawaii|sugoi|neko)\\b"
+	  },
+	  {
+		"name": "variable.language.animelang",
+		"match": "\\b([a-z]+)-san\\b"
+	  },
+	  {
+		"name": "entity.name.type.animelang",
+		"match": "\\b([A-Z]+[a-z0-9]*)-sama\\b"
+	  },
+	  {
+		"name": "constant.numeric.animelang",
+		"match": "\\b[0-9]+(\\.[0-9]+)?\\b"
+	  },
+	  {
+		"name": "string.quoted.double.animelang",
+		"begin": "\"",
+		"end": "\""
+	  },
+	  {
+		"name": "comment.line.double-slash.animelang",
+		"begin": "//",
+		"end": "$"
+	  }
+	]
+  }
+  

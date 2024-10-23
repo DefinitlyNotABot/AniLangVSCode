@@ -1,0 +1,30 @@
+{
+  "name": "anilang",
+  "displayName": "AniLang",
+  "description": "Syntax Highlighter for AniLang",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.94.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+  "languages": [
+    {
+      "id": "animelang",
+      "aliases": ["AnimeLang", "animelang"],
+      "extensions": [".ani"],
+      "configuration": "./language-configuration.json"
+    }
+  ],
+  "grammars": [
+    {
+      "language": "animelang",
+      "scopeName": "source.animelang",
+      "path": "./syntaxes/animelang.tmLanguage.json"
+    }
+  ]
+}
+
+}
