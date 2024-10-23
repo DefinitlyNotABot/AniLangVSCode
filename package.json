@@ -12,17 +12,17 @@
   "contributes": {
   "languages": [
     {
-      "id": "animelang",
-      "aliases": ["AnimeLang", "animelang"],
-      "extensions": [".ani"],
+      "id": "anilang",
+      "aliases": ["AniLang", "anilang"],
+      "extensions": [".ani", ".anilang", ".AniLang"],
       "configuration": "./language-configuration.json"
     }
   ],
   "grammars": [
     {
-      "language": "animelang",
-      "scopeName": "source.animelang",
-      "path": "./syntaxes/animelang.tmLanguage.json"
+      "language": "anilang",
+      "scopeName": "source.anilang",
+      "path": "./syntaxes/anilang.tmLanguage.json"
     }
   ]
 },
